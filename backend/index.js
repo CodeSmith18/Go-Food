@@ -7,7 +7,7 @@ const LogInCollection = require("./db");
 
 // Set up CORS middleware
 app.use(cors({
-  origin: ['https://go-food-front-rosy.vercel.app/'], // Allow requests from these origins
+  origin: ["https://go-food-front-rosy.vercel.app"], // Allow requests from these origins
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept']
 }));
